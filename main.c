@@ -1,10 +1,11 @@
 #include <stdio.h>
-int foo()
+int foo(int x)
 {
-	return 10-9;
+	
+	return x-1;
 }
 int main()
 {
-	printf("\nFirst C project%d on Git Project!!!!!\n\n", foo());
+	printf("\nFirst C project%d on Git Project!!!!!\n\n", foo(2));
 	return 0;
 }
