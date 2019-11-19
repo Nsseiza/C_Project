@@ -1,11 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 int foo(int x)
 {
 	
 	return x-1;
 }
-int main()
+int main(int argc, char* argv[])
 {
-	printf("\nFirst C project%d on Git Project!!!!!\n\n", foo(2));
+	
+	int x = atoi(argv[1]);	
+	printf("\nFirst C project_[%d] on Git Project!!!!!\n\n", foo(x));
 	return 0;
 }
