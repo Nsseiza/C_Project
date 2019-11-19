@@ -9,6 +9,6 @@ int main(int argc, char* argv[])
 {
 	
 	int x = atoi(argv[1]);	
-	printf("\nFirst C project_[%d] on Git Project!!!!!\n\n", foo(x));
+	printf("\nTest odd or even num_[%d] on Git Project!!!!!\n\n", foo(x));
 	return 0;
 }
