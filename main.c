@@ -2,8 +2,8 @@
 #include <stdlib.h>
 int foo(int x)
 {
-	
-	return x-1;
+	int y = x%2==0 ? x+2 : x + 1;
+	return y;
 }
 int main(int argc, char* argv[])
 {
