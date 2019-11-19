@@ -1,13 +1,13 @@
-all: startApp
+all: App
 
-startApp: main.o
-	gcc main.o -o startApp
+App: main.o
+	gcc main.o -o App
 
 main.o: main.c
 	gcc -c main.c 
 
 .Phony:clean
 clean:
-	rm *.o 
+	rm *.o
 
 
