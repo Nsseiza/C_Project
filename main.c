@@ -9,6 +9,8 @@ int main(int argc, char* argv[])
 {
 	
 	int x = atoi(argv[1]);	
-	printf("\nTest odd or even num_[%d] on Git Project!!!!!\n\n", foo(x));
+	printf("\nFirst odd or even param num_[%d] on Git Project!!!!!\n\n", foo(x));
+	int x = atoi(argv[2]);	
+	printf("\nFirst odd or even param num_[%d] on Git Project!!!!!\n\n", foo(x));
 	return 0;
 }
